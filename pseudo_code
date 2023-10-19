@@ -1,4 +1,4 @@
-CODE FOR BACKEND DEV  
+CODE FOR BACKEND AND  END DEV  
 
 1.START
 2.USER CREATES A NEW FEATURE
@@ -26,10 +26,31 @@ CODE FOR BACKEND DEV
 
 
 
-1. Start  interacts with CLI
+CODE FOR FRONTEND DEV (TERMINAL UI) :-PEACE
+
+1.user with CLI
 2.user input is handled by CLI
 3.If user selects Organize command file should be called handling script and then moved to a designated folder
 4.if user select the Exit command
 5.Stop / End program
+
+
+
+CODE FOR BACKEND DEV (FILE HANDLING):-PRAISE
+
+1.User interacts with program
+2.Set source directory
+3.Set destination directory
+4.List all files in the source directory
+5.Proceed if its a text file for each of the file, if not continue to the next level
+6.Construct the source file path
+7.Construct the destination file path
+8.Check if the file already exists in the destination directory
+    if file_exists 
+Handle duplicate file name, if not then proceed
+
+9.Move the text file to the destination directory
+10. End of script
+
 
 
