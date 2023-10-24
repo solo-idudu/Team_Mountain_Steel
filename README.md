@@ -9,6 +9,9 @@ https://github.com/solo-idudu/Team_Mountain_Steel/blob/7231b6f14f77ee214ecb296dd
 pseudo_code
 https://github.com/solo-idudu/Team_Mountain_Steel/blob/7231b6f14f77ee214ecb296dd4206998bec6f29b/pseudo_code
 
+organize_text_file.sh
+
+
 
 
 
