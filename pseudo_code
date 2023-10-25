@@ -1,0 +1,56 @@
+CODE FOR BACKEND AND  FRONTEND DEV  CREATING A BRANCH AND COMMIT AND MERGING
+
+1.START
+2.USER CREATES A NEW FEATURE
+3.CREATE A NEW BRANCH
+4.CONFIRM BRANCH CREATED 
+6.SWITCH TO MEW BRANCH
+7.MAKE CHANGES TO THE CLI COMPONENTS
+8.TEST CHANGES MADE
+9.TEST CHANGES MADE
+10.ARE THE CHANGES MADE WORKING WELL
+11.IF YES
+12.COMMIT CHANGES
+13.CHANGES OK
+14.CREATE PULL REQUEST
+15.REQUEST REVIEW
+16.IF REQUEST IS APPROVED
+17.MERGE CHANGES THEN END PROGRAM
+18.IF NOT APPROVED
+19.TEST AND REVIEW AGAIN
+20.END PROGRAM
+
+
+
+
+
+
+
+CODE FOR FRONTEND DEV (TERMINAL UI) :-PEACE
+
+1.user with CLI
+2.user input is handled by CLI
+3.If user selects Organize command file should be called handling script and then moved to a designated folder
+4.if user select the Exit command
+5.Stop / End program
+
+
+
+CODE FOR BACKEND DEV (FILE HANDLING):-PRAISE
+
+1.User interacts with program
+2.Set source directory
+3.Set destination directory
+4.List all files in the source directory
+5.Proceed if its a text file for each of the file, if not continue to the next level
+6.Construct the source file path
+7.Construct the destination file path
+8.Check if the file already exists in the destination directory
+    if file_exists 
+Handle duplicate file name, if not then proceed
+
+9.Move the text file to the destination directory
+10. End of script
+
+
+
