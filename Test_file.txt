@@ -1,0 +1,67 @@
+# Test Case: File Organization Process Validation
+
+## Step 1: Manual Testing - CLI and File Handling
+
+1.1. Open CLI tool.
+1.2. Execute the file organization command with sample input files.
+1.3. Verify that files are organized into appropriate directories as per the rules.
+1.4. Manually check the organized files to ensure correct categorization.
+1.5. Verify error handling:
+     1.5.1. Try organizing non-existing files/directories.
+     1.5.2. Verify appropriate error messages are displayed.
+1.6. Test edge cases:
+     1.6.1. Organize empty directories.
+     1.6.2. Organize files with special characters in their names.
+     1.6.3. Organize very large files.
+1.7. Report any issues or errors encountered during the testing process.
+
+## Step 2: Test Case Automation
+
+2.1. Write automated test scripts to validate file organization.
+2.2. Include test cases for different file types, sizes, and directory structures.
+2.3. Verify the output directory structure matches the expected structure.
+2.4. Automate error scenarios and ensure appropriate error messages are captured.
+2.5. Execute the automated test suite.
+
+## Step 3: Version Control and Pull Request
+
+3.1. Create a new branch for the test cases:
+    
+
+     git checkout -b file-organization-tests
+     
+3.2. Commit the automated test scripts:
+    
+
+     git add automated_tests/
+     git commit -m "Add automated test cases for file organization"
+     
+3.3. Push the changes to the remote repository:
+    
+
+     git push origin file-organization-tests
+     
+3.4. Create a pull request for testing:
+     3.4.1. Go to the repository on GitHub.
+     3.4.2. Click on "New Pull Request."
+     3.4.3. Select the branch with the test cases.
+     3.4.4. Provide a description of the changes made.
+     3.4.5. Request reviewers to validate the test cases.
+3.5. Reviewers validate the test cases, provide feedback, and approve the pull request if tests pass.
+
+## Step 4: Merge Changes
+
+4.1. Once the pull request is approved, merge the changes into the main branch:
+    
+
+     git checkout main
+     git merge file-organization-tests
+     git push origin main
+     
+
+## Step 5: Post-Merge Validation
+
+5.1. After merging, run the automated tests again on the main branch to ensure no regression.
+5.2. Verify that the file organization process still functions correctly after merging the changes.
+
+# End of Test Case
